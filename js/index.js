@@ -1,7 +1,7 @@
 const number = parseInt(prompt('Enter a number'));
 
 function solFibRec(n) {
-    if (n==1 || n==2)
+    if (n<=2)
         return 1;
     else
         return solFibRec(n-1)+solFibRec(n-2);
