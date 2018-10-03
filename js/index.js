@@ -8,7 +8,7 @@ function solFibRec(n) {
 }
 alert("Рекурсією = " + solFibRec(number));
 
-function solFibCycle(n) {
+function solFibLoop(n) {
     let firstNumber = 1;
     let secondNumber = 1;
     let temp = 0;
@@ -19,7 +19,7 @@ function solFibCycle(n) {
     }
     return secondNumber;
 }
-alert("Циклом зі змінними = " + solFibCycle(number));
+alert("Циклом зі змінними = " + solFibLoop(number));
 
 function solFibArr(n) {
     let arr = [];
