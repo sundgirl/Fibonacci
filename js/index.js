@@ -6,7 +6,7 @@ function solFibRec(n) {
     else
         return solFibRec(n-1)+solFibRec(n-2);
 }
-alert(solFibRec(number));
+alert("Рекурсією = " + solFibRec(number));
 
 function solFibCycle(n) {
     let firstNumber = 1;
@@ -19,7 +19,7 @@ function solFibCycle(n) {
     }
     return secondNumber;
 }
-alert(solFibCycle(number));
+alert("Циклом зі змінними = " + solFibCycle(number));
 
 function solFibArr(n) {
     let arr = [];
@@ -29,4 +29,4 @@ function solFibArr(n) {
     }
     return arr.pop();
 }
-alert(solFibArr(number));
+alert("Масивом = " + solFibArr(number));
